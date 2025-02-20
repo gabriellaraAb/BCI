@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Inversiones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1a237e, #64b5f6);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+        .data-box {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .input-field {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard de Inversiones</h1>
+        <h2>Número de Cuenta: 123456789</h2>
+        <h2>Número de Comitente: 987654321</h2>
+        
+        <div class="data-box">
+            <h2>Dinero en Efectivo (USD)</h2>
+            <input type="text" class="input-field" id="cashAmount" placeholder="Ingrese monto">
+        </div>
+        
+        <div class="data-box">
+            <h2>Acción: Microsoft (MSFT)</h2>
+            <input type="text" class="input-field" id="stockAmount" placeholder="Cantidad de acciones">
+            <input type="text" class="input-field" id="dailyVariation" placeholder="Variación diaria">
+        </div>
+    </div>
+</body>
+</html>
